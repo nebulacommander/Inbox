@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button"
 import ComposeButton from "@/app/mail/components/compose-button"
 import WebhookDebugger from "@/app/mail/components/webhook-debugger"
 import TopAccountSwitcher from "./top-account-switcher"
+import AuthoriseButton from "@/components/authorise-button"
 export default function Home() {
   // return <AuthoriseButton />
   return <>
@@ -25,9 +26,9 @@ export default function Home() {
       </div>
     </div>
 
-    {/* <div className="border-b ">
+     <div className="border-b ">
       <TopAccountSwitcher />
-    </div> */}
+    </div> 
     <MailPage />
   </>
 }
